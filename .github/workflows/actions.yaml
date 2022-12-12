@@ -41,7 +41,3 @@ jobs:
           host: ${{ secrets.SERVER_HOST }}
           username: ${{ secrets.SERVER_USER }}
           password: ${{ secrets.SERVER_PASSWORD }}
-          script: |
-            cd deploy
-            sudo docker-compose up -d
-            qwerty
